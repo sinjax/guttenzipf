@@ -40,5 +40,8 @@ vals = [x[1] for x in group_counts]
 
 plt.bar(index,vals,0.35)
 plt.title(book)
+plt.xlabel("number of characters")
+plt.ylabel("number of sentences")
 plt.savefig("guttenzipf.png")
+
 plt.show()
